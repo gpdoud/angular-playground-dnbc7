@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'playground';
+  message = "Angular is cool!";
+  value: string = "Initial value";
+
+  clicked() {
+    this.message = "Angular is very cool!";
+  }
 }
